@@ -39,7 +39,7 @@ var arr2=JSON.parse(localStorage.getItem("schedule"))||[]
 
 
         var td5=document.createElement("td")
-        td5.innerText="Favourites"
+        td5.innerText="Add as Favourites"
         td5.style.color="green"
         td5.style.cursor="pointer"
         td5.addEventListener("click",function(){
